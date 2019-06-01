@@ -1,0 +1,110 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* Navbar */
+
+.navbar {
+	width: 100%;
+}
+
+/* header */
+
+.header {
+	height: 500px;
+	width: 100%;
+	background: url("../static/pic/pic1.jpg") no-repeat center center/cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.header-sign {
+	padding-top: 200px;
+	color: white;
+}
+
+/* About */
+
+.about-text h1 {
+	text-align: center;
+	font-size: calc(1rem + 1vw);
+	color: #93cb52;
+}
+
+.about-text {
+	background: black;
+	color: white;
+}
+
+.main-about-pic {
+	min-height: 60vh;
+	background: url("../static/pic/profile3.jpg") no-repeat center center/cover;
+}
+
+/* Hangman */
+
+.hangman img {
+	width: 100%;
+	padding: 10px;
+}
+
+.hangman-title h3 {
+	text-align: center;
+	font-size: calc(2rem + 1vw);
+	color: rgb(145, 9, 9);
+	font-family: "Stylish", sans-serif;
+}
+
+.hangman {
+	background-color: black;
+}
+
+.letter,
+.hidden,
+.blank,
+.hidden-letter {
+	max-width: 45px;
+	max-height: 45px;
+}
+
+.hangman-select {
+	background: black;
+}
+
+.hangman-hidden-letters {
+	height: 100px;
+}
+
+/* Buttons */
+
+.hangman-select>.restart:hover {
+	cursor: pointer;
+}
+
+.btn p {
+	font-family: "Stylish", sans-serif;
+	font-size: 28px;
+	color: white;
+	padding: 1px;
+}
+
+/* Footer */
+
+footer {
+	height: 62px;
+	font-family: "Stylish",
+		sans-serif;
+	font-size: 28px;
+	background: #2780E3;
+	color: white;
+	padding: 5px;
+}
